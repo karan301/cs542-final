@@ -6,5 +6,3 @@ Our project is based on the [2014 VAST Challenge](http://www.vacommunity.org/VAS
 
 ## Our approach
 First of all, we may do some data mining on resumes and articles of employees.There might be some unique pattern or key words that relates to the organization "Protectors of Kronos", and here we can do furthur analysis on who might be the victims and who are inside the POK.
-----
-_Updated on July 19, 2017 by Karan Varindani._
