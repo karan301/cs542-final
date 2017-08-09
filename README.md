@@ -5,7 +5,7 @@ This is the GitHub repository for the team consisting of `Karan Varindani`, `Wen
 Our project is based on research [started by HAL](https://hal.inria.fr/hal-01250478/document) on learning a convolutional neural network for non-uniform motion blur removal. 
 
 ## Our approach
-Our project approach is to estimate motion blur from a single, blurry image. We propose a deep learning approach to predict the probabilistic distribution of motion blur at the patch level using a Convolutional Neural Network (CNN),
+Our project approach is to estimate motion blur from a single, blurry image. We propose a deep learning approach to predict the probabilistic distribution of motion blur at the patch level using a Convolutional Neural Network (CNN).
 
 ----
 
