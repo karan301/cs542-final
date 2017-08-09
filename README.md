@@ -9,4 +9,4 @@ First of all, we may do some data mining on resumes and articles of employees.Th
 
 ----
 
-All the provided data is in the [`Resources`](./Resources/) directory.
+All the data provided by the IEEE is in the [`Resources`](./Resources/) directory.
