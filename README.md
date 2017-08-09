@@ -9,4 +9,4 @@ Our project approach is to estimate motion blur from a single, blurry image. We 
 
 ----
 
-You can find our [Code](./Code/) here, our presentation here (currently broken — update), and resource images [here](./Resources/).
+You can find our [Code](./Code/) here, resource images [here](./Resources/), and our report [here](./Report/). 
