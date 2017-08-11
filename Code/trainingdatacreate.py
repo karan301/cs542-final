@@ -17,9 +17,6 @@ kernel_motion_blur = np.zeros((size, size))
 kernel_motion_blur[int((size-1)/2), :] = np.ones(size)
 kernel_motion_blur = kernel_motion_blur / size
 
-# img = Image.open(oripath+"JR.jpg")
-
-
 #go through every image in source folder
 print('begin loading images')
 pi_imgs = []
@@ -32,12 +29,9 @@ for f in os.listdir(oripath):
     pi_imgs.append(Image.open(os.path.join(oripath,f)))
     cv_imgs.append(cv2.imread(os.path.join(oripath,f)))
 print('finished loading images')
-#
 
-#
-# looping to create blured images
 for i in range(len(pi_imgs)):
-    # creating a blured copy of the original image
+    #Slicing the pictures first
     img = pi_imgs[i]
     (imageWidth, imageHeight) = img.size
     rangex = img.width / gridx
@@ -47,11 +41,14 @@ for i in range(len(pi_imgs)):
 
             bbox = (x * gridx, y * gridy, x * gridx + gridx, y * gridy + gridy)
             slice_bit = img.crop(bbox)
+            #In order to make sure the raondom 50% chance of getting blur and noblur images, I'm using random to decide whether do motion blur or not
             if random.randrange(2) == 0:
+                #not do motion blur
                 slice_bit.save(noblurpath + 'noblur,' +str(i)+'_'+ str(x) + '_' + str(y) + '.jpg', optimize=True, bits=6)
                 slice_bit.save(inputpath + 'noblur,' + str(i) + '_' + str(x) + '_' + str(y) + '.jpg', optimize=True,bits=6)
                 print(str(i))
             else:
+                #do motion blur
                 slice_bit.save(blurpath + 'blur,' + str(i)+'_'+str(x) + '_' + str(y) + '.jpg', optimize=True, bits=6)
                 img1 = cv2.imread(blurpath + 'blur,' +str(i)+'_'+ str(x) + '_' + str(y) + '.jpg')
                 output = cv2.filter2D(img1, -1, kernel_motion_blur)
