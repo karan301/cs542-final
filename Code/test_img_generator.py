@@ -17,9 +17,10 @@ import os, os.path
 # NOTE: please enter your correct folder path
 # NOTE: transpath is just a temp path that stores the blured copies of images
 # NOTE: Oripath is the source path and tarpath is where all the outputs are.
-oripath = "S:/cs542/542proj/oriimg/"
-transpath = "S:/cs542/542proj/transimg/"
-tarpath = "S:/cs542/542proj/tarimg/"
+oripath = "./s_oridata/"
+transpath = "./transimg/"
+tarpath = "./tarimg/"
+
 
 # global variables
 size = 15
