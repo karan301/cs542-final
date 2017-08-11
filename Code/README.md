@@ -1,4 +1,4 @@
-This is the code to run our cnn model.
+This is the folder that constain codes to run our cnn model.
 
 In order to successfully running the code, please first unzip the "data.zip" file and put all all folders "s_cnn","s_oridata","tarimg" and "transimg" into the same folder with the other python codes
 
