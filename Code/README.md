@@ -4,4 +4,6 @@ In order to successfully running the code, please first unzip the "data.zip" fil
 
 After unzipping the data and put them into proper place, you are ready to run the code.To run the cnn model, just enter "cnn.py" and run the code. It might take couple hours to run it if you are using personal computers. Usinga server or GPU to run this code would significantly lower the running time.
 
+The trained model we generated throughout the code is shared here(since github doesn't allow file bigger than 25MB): https://drive.google.com/a/bu.edu/file/d/0B8GhS4dXq_m2Q3d4VExQSVlieTQ/view?usp=sharing
+
 Thank you so much!
