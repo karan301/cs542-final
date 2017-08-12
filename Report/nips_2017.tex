@@ -13,6 +13,9 @@
 \usepackage{amsfonts}       % blackboard math symbols
 \usepackage{nicefrac}       % compact symbols for 1/2, etc.
 \usepackage{microtype}      % microtypography
+\usepackage{graphicx}		% to allow images
+
+\graphicspath{ {images/} }
 
 \title{Detecting Motion Blur in Images}
 
@@ -64,6 +67,13 @@ We achieved this by:
   adding the matrix to a list (to form a 3D 'list of lists') containing the matrices 
   of all the image.
 \end{enumerate}
+
+\includegraphics[width=\textwidth]{blur} \\
+\textit{Image of the original-to-blur process.} \\ 
+\includegraphics[width=\textwidth]{patches} \\
+\textit{Image of the image splitting process.} \\
+\includegraphics[width=\textwidth]{matrix} \\
+\textit{The final image with its corresponding matrix.} \\
 
 We repeat the above for all 100 images, until we end up with a folder containing 
 partially-blurred images \textit{"0.jpg"} through \textit{"100.jpg"}, and a 3D list 
