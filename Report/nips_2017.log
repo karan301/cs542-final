@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.7.8)  12 AUG 2017 15:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.7.8)  12 AUG 2017 15:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -756,19 +756,19 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 34.
 
-<images/blur.png, id=17, 530.98375pt x 193.72375pt>
+<images/blur.png, id=21, 530.98375pt x 193.72375pt>
 File: images/blur.png Graphic file (type png)
  <use images/blur.png>
 Package pdftex.def Info: images/blur.png used on input line 71.
 (pdftex.def)             Requested size: 397.48499pt x 145.0205pt.
 
-<images/patches.png, id=19, 465.74pt x 290.08376pt>
+<images/patches.png, id=23, 465.74pt x 290.08376pt>
 File: images/patches.png Graphic file (type png)
  <use images/patches.png>
 Package pdftex.def Info: images/patches.png used on input line 73.
 (pdftex.def)             Requested size: 397.48499pt x 247.58154pt.
 
-<images/matrix.png, id=20, 562.1pt x 274.02374pt>
+<images/matrix.png, id=24, 562.1pt x 274.02374pt>
 File: images/matrix.png Graphic file (type png)
  <use images/matrix.png>
 Package pdftex.def Info: images/matrix.png used on input line 75.
@@ -790,21 +790,37 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [2 <./images/blur.png> <./images/patches.png> <./images/matrix.png>]
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <10> not available
 (Font)              Font shape `T1/ptm/b/it' tried instead on input line 105.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 144.
- [3]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 144.
+
+<images/accuracy.jpeg, id=49, 642.4pt x 115.43124pt>
+File: images/accuracy.jpeg Graphic file (type jpg)
+
+<use images/accuracy.jpeg>
+Package pdftex.def Info: images/accuracy.jpeg used on input line 128.
+(pdftex.def)             Requested size: 397.48499pt x 71.42395pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--129
+
+ []
+
+
+Underfull \vbox (badness 1137) has occurred while \output is active []
+
+ [3 <./images/accuracy.jpeg>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 152.
+ [4]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 152.
  (./nips_2017.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 144.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 144.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 152.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 152.
 Package rerunfilecheck Info: File `nips_2017.out' has not changed.
-(rerunfilecheck)             Checksum: 4678FD9F6BCF75B927A5038F2F9DFC94;208.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 144.
+(rerunfilecheck)             Checksum: 1DC773C805F4BC12F6E4365B1AA15BC9;253.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 152.
  ) 
 Here is how much of TeX's memory you used:
- 8260 strings out of 494945
- 123482 string characters out of 6181033
+ 8271 strings out of 494945
+ 123632 string characters out of 6181033
  239876 words of memory out of 5000000
- 11326 multiletter control sequences out of 15000+600000
+ 11331 multiletter control sequences out of 15000+600000
  34120 words of font info for 106 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  31i,8n,38p,213b,327s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -815,10 +831,10 @@ fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times
 /utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></
 usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on nips_2017.pdf (3 pages, 2474621 bytes).
+Output written on nips_2017.pdf (4 pages, 2502387 bytes).
 PDF statistics:
- 86 PDF objects out of 1000 (max. 8388607)
- 67 compressed objects within 1 object stream
- 18 named destinations out of 1000 (max. 500000)
- 18472 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 96 PDF objects out of 1000 (max. 8388607)
+ 75 compressed objects within 1 object stream
+ 20 named destinations out of 1000 (max. 500000)
+ 18485 words of extra memory for PDF output out of 20736 (max. 10000000)
 
