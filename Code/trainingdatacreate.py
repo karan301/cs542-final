@@ -4,10 +4,10 @@ import random
 from PIL import Image
 import os, os.path
 
-oripath = "/Users/sibozhu/DeepLearning/testing/oridata/"
-noblurpath = "/Users/sibozhu/DeepLearning/testing/cnn/train/no_blur/"
-blurpath = "/Users/sibozhu/DeepLearning/testing/cnn/train/blur/"
-inputpath = "/Users/sibozhu/DeepLearning/testing/cnn/train/inputdata/"
+oripath = "./s_oridata/"
+noblurpath = "./s_cnn/train/no_blur/"
+blurpath = "./s_cnn/train/blur/"
+inputpath = "./s_cnn/train/inputdata/"
 
 size = 15
 gridx=30
