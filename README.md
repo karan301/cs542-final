@@ -8,9 +8,9 @@ Our project is based on research [started by HAL](https://hal.inria.fr/hal-01250
 Our project approach is to estimate motion blur from a single, blurry image. We propose a deep learning approach to predict the probabilistic distribution of motion blur at the patch level using a Convolutional Neural Network (CNN).
 
 ## Credits
-**Core algorithm:** Sibo Zhu
-**Data creation:** Wenyang Zhang
-**Project management:** Karan Varindani 
+* **Core algorithm:** Sibo Zhu
+* **Data creation:** Wenyang Zhang
+* **Project management:** Karan Varindani 
 
 ----
 
